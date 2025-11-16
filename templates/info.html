@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pollutant Information</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f1f3f5;
+    }
+
+    .header {
+      background: linear-gradient(90deg, #2563eb, #1e40af);
+      padding: 1rem;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-custom {
+      background-color: white;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-custom h5 {
+      color: #1e40af;
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .pollutant-card {
+      margin-bottom: 1.5rem;
+    }
+
+    .btn-primary {
+      background-color: #2563eb;
+      border-color: #2563eb;
+      border-radius: 10px;
+      padding: 0.6rem 1.5rem;
+      font-weight: 500;
+    }
+
+    .btn-primary:hover {
+      background-color: #1e40af;
+    }
+
+    .gradient-background {
+      background: radial-gradient(circle, #10b981, #059669);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h4>Pollutant Information</h4>
+    <div>
+      <a href="/" class="text-white me-3">Home</a>
+      <a href="/info" class="text-white">Pollutant Information</a>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h3 class="mb-4 text-center">Detailed Information on Pollutants</h3>
+    
+   
+    <div class="card-custom pollutant-card">
+      <h5>PM2.5 (Fine Particulate Matter)</h5>
+      <img src="../static/images/pm25.jpg" class="card-img-top" alt="PM2.5 Image" height="450">
+      <p><strong>Source:</strong> Emissions from vehicles, industrial activities, and burning of fossil fuels.</p>
+      <p><strong>Impact on Human Health:</strong> Causes respiratory diseases, heart diseases, and lung cancer.</p>
+      <p><strong>Environmental Impact:</strong> Contributes to air pollution, reducing visibility and causing acid rain.</p>
+    </div>
+    
+
+    <div class="card-custom pollutant-card">
+      <h5>PM10 (Coarse Particulate Matter)</h5>
+      <img src="../static/images/pm10.jpg" class="card-img-top" alt="PM10 Image" height="450">
+      <p><strong>Source:</strong> Dust storms, vehicle exhaust, industrial emissions.</p>
+      <p><strong>Impact on Human Health:</strong> Causes respiratory issues, aggravates asthma and lung diseases.</p>
+      <p><strong>Environmental Impact:</strong> Can degrade soil and water quality by settling on surfaces.</p>
+    </div>
+
+
+    <div class="card-custom pollutant-card">
+      <h5>Nitric Oxide (NO)</h5>
+      <img src="../static/images/no.jpg" class="card-img-top" alt="Nitric Oxide Image" height="450">
+      <p><strong>Source:</strong> Emissions from vehicles, power plants, and agriculture.</p>
+      <p><strong>Impact on Human Health:</strong> Contributes to respiratory issues, exacerbates asthma.</p>
+      <p><strong>Environmental Impact:</strong> Contributes to the formation of ground-level ozone and acid rain.</p>
+    </div>
+
+
+    <div class="card-custom pollutant-card">
+      <h5>Nitrogen Dioxide (NO₂)</h5>
+      <img src="../static/images/no2.jpg" class="card-img-top" alt="Nitrogen Dioxide Image" height="450">
+      <p><strong>Source:</strong> Emissions from vehicles, combustion processes, and power plants.</p>
+      <p><strong>Impact on Human Health:</strong> Aggravates asthma, causes lung infections, and reduces lung function.</p>
+      <p><strong>Environmental Impact:</strong> Contributes to acid rain and ground-level ozone, leading to smog.</p>
+    </div>
+
+ 
+    <div class="card-custom pollutant-card">
+      <h5>Nitrogen Oxides (NOx)</h5>
+      <img src="../static/images/nox.jpg" class="card-img-top" alt="Nitrogen Oxides Image" height="450">
+      <p><strong>Source:</strong> Combustion of fossil fuels, industrial activities, and vehicles.</p>
+      <p><strong>Impact on Human Health:</strong> Respiratory and heart diseases, aggravates asthma.</p>
+      <p><strong>Environmental Impact:</strong> Contributes to smog and acid rain.</p>
+    </div>
+
+
+    <div class="card-custom pollutant-card">
+      <h5>Ammonia (NH₃)</h5>
+      <img src="../static/images/nh3.jpeg" class="card-img-top" alt="Ammonia Image" height="450">
+      <p><strong>Source:</strong> Agricultural activities, livestock waste, industrial processes.</p>
+      <p><strong>Impact on Human Health:</strong> Irritates the eyes, skin, and respiratory system.</p>
+      <p><strong>Environmental Impact:</strong> Contributes to nutrient pollution in water bodies and acid rain.</p>
+    </div>
+
+
+    <div class="card-custom pollutant-card">
+      <h5>Carbon Monoxide (CO)</h5>
+      <img src="../static/images/co.webp" class="card-img-top" alt="Carbon Monoxide Image" height="450">
+      <p><strong>Source:</strong> Incomplete combustion of fuels in vehicles and industrial processes.</p>
+      <p><strong>Impact on Human Health:</strong> Can cause poisoning, headaches, nausea, and confusion.</p>
+      <p><strong>Environmental Impact:</strong> Contributes to smog formation and affects vegetation growth.</p>
+    </div>
+
+
+    <div class="card-custom pollutant-card">
+      <h5>Sulfur Dioxide (SO₂)</h5>
+      <img src="../static/images/so2.jpg" class="card-img-top" alt="Sulfur Dioxide Image" height="450">
+      <p><strong>Source:</strong> Fossil fuel combustion in power plants, industrial processes, and vehicle emissions.</p>
+      <p><strong>Impact on Human Health:</strong> Causes respiratory problems and irritation in the eyes and throat.</p>
+      <p><strong>Environmental Impact:</strong> Contributes to acid rain and harms plant life.</p>
+    </div>
+
+
+    <div class="card-custom pollutant-card">
+      <h5>Ozone (O₃)</h5>
+      <img src="../static/images/o3.webp" class="card-img-top" alt="Ozone Image" height="450">
+      <p><strong>Source:</strong> Formed from nitrogen oxides and volatile organic compounds in the presence of sunlight.</p>
+      <p><strong>Impact on Human Health:</strong> Can irritate the respiratory system and exacerbate asthma.</p>
+      <p><strong>Environmental Impact:</strong> Damages crops and vegetation, reducing photosynthesis.</p>
+    </div>
+
+
+    <div class="card-custom pollutant-card">
+      <h5>Benzene</h5>
+      <img src="../static/images/benezene.jpg" class="card-img-top" alt="Benzene Image" height="450">
+      <p><strong>Source:</strong> Emissions from vehicle exhaust, industrial processes, and tobacco smoke.</p>
+      <p><strong>Impact on Human Health:</strong> Causes cancer, especially leukemia.</p>
+      <p><strong>Environmental Impact:</strong> Benzene is a volatile organic compound contributing to smog formation.</p>
+    </div>
+
+ 
+    <div class="card-custom pollutant-card">
+      <h5>Toluene</h5>
+      <img src="../static/images/toulene.jpg" class="card-img-top" alt="Toluene Image" height="450">
+      <p><strong>Source:</strong> Vehicle exhaust, industrial emissions, and solvent-based products.</p>
+      <p><strong>Impact on Human Health:</strong> Causes headaches, dizziness, and liver damage.</p>
+      <p><strong>Environmental Impact:</strong> Contributes to the formation of smog and ground-level ozone.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
