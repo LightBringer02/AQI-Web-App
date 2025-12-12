@@ -161,7 +161,7 @@
           <label class="form-label"><strong>Select Model:</strong></label><br>
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="model" id="random" value="random" {% if request.form.model == 'random' %}checked{% endif %}>
-            <label class="form-check-label" for="random">Random Forest</label>
+            <label class="form-check-label" for="random">Random Forest (Best)</label>
           </div>
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="model" id="svm" value="svm" {% if request.form.model == 'svm' %}checked{% endif %}>
@@ -173,7 +173,7 @@
           </div>
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="model" id="ensemble" value="ensemble" {% if request.form.model == 'ensemble' %}checked{% endif %}>
-            <label class="form-check-label" for="ensemble">Ensemble Learning (Best)</label>
+            <label class="form-check-label" for="ensemble">Ensemble Learning</label>
           </div>
         </div>
 
@@ -199,3 +199,4 @@
 {% endif %}
 </body>
 </html>
+
